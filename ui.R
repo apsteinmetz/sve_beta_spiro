@@ -29,8 +29,7 @@ gridlayout::grid_page(
       label = "Points Drawn",
       min = 1L,
       max = 6000L,
-      value = 1L,
-      animate=TRUE
+      value = 1L
     ),
     shiny::sliderInput(
       inputId = "ring1",
